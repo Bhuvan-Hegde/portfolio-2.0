@@ -1,0 +1,53 @@
+.mainSkill{
+    width: 80%;
+    margin: 70px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 90px;
+}
+
+.skillHeader{
+    color: #949495;
+}
+
+.skillCont{
+    width: 100%;
+    display: flex;
+    columns: 2;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0px 0px 0px;
+
+    
+}
+
+.skill{
+    width: 38%;
+    height: 230px;
+    background-color: rgb(38, 38, 40);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes appear {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  .skillCont {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+  }
