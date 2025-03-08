@@ -1,9 +1,7 @@
 import React from 'react'
 import './skillPage.css'
 
-const skills = [
-    
-]
+
 
 function SkillPage() {
   return (
