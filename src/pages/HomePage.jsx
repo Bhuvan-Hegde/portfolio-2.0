@@ -53,7 +53,10 @@ function HomePage() {
 
 
   return (
+
+     
     <div className='mainDiv'>
+      <p style={{position:"absolute"}}>*Still under development*</p>
     <div className="another">
     <div className="left">
         
