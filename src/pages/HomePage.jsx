@@ -56,7 +56,7 @@ function HomePage() {
 
      
     <div className='mainDiv'>
-      <p style={{position:"absolute"}}>*Still under development*</p>
+   
     <div className="another">
     <div className="left">
         
@@ -98,13 +98,13 @@ function HomePage() {
 </a>
 
 
-          <a className='limkk' href="/">
+          {/* <a className='limkk' href="/">
           <div className="one">
             03 
             <div className="line"></div>
             SKILLS
           </div>
-          </a>
+          </a> */}
         </div>
 
         <div className="socials">
@@ -115,11 +115,11 @@ function HomePage() {
 
           <div className="rightsoc">
             <div className="top">
-              <a href="/" target="_blank" className='socLinks'>
+              <a href="https://github.com/Bhuvan-Hegde" target="_blank" className='socLinks'>
                 <p  className='iicons'><FontAwesomeIcon className='socIcon' icon={faGithub} size='2x'/> GITHUB <FontAwesomeIcon className='linkIcon' icon={faExternalLinkAlt}/> </p>
               </a>
 
-              <a href="/" target="_blank" className='socLinks'>
+              <a href="https://www.linkedin.com/in/bhuvan-hegde-348b48254/" target="_blank" className='socLinks'>
                 <p className='iicons'><FontAwesomeIcon className='socIcon' icon={faLinkedin}/> LINKEDIN <FontAwesomeIcon className='linkIcon' icon={faExternalLinkAlt}/> </p>
               </a>
             </div>
