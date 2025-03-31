@@ -24,7 +24,7 @@ function ProjectsPage() {
             <div className="project" id='1'>
                 <img className='projectImg' src={FoodWebImg} alt="" />
                 <h4>Cafe HomePage</h4>
-                <p className='projectText'>An aesthetic looking website template for a cafe . A hobby project made to increase my knowlede in Tailwind CSS and React.</p>
+                <p className='projectText'>An aesthetic looking website template for a cafe . A hobby project made to increase my knowledge in Tailwind CSS and React.</p>
             </div></a>
 
 
